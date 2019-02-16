@@ -1,7 +1,7 @@
 import {createStore,applyMiddleware} from "redux";
 import thunk from "redux-thunk";
 import {combineReducers} from "redux-immutable";
-import a from "./reducers/a";
+import a from "./reducers/";
 import b from "./reducers/b";
 
 
