@@ -11,8 +11,9 @@ export const getRecommend = ()=>{
         fetch(url)
         .then(res=>res.json())
         .then((data)=>{
-            console.log(data);
-            dispatch(action())
+            // console.log(data.data.module[3].content);
+            dispatch(action(data.data.module[3].content))
+            
         })
     }
 }

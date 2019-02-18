@@ -7,11 +7,12 @@ import {getRecommend} from "../../action/actionCreator";
 import { connect } from 'react-redux';
 class Home extends Component{
     render(){
+        let {recommend} = this.props;
         return (
             <div>
                 <Top></Top>
                 <Banner></Banner>
-                <Recommend></Recommend>
+                <Recommend recommend={recommend}></Recommend>
             </div>
         )
     }
@@ -20,11 +21,15 @@ class Home extends Component{
     }
 }
 
+const mapStateToProps = (state)=>({
+    recommend:state.getIn(["HomeReducer","recommend"])
+})
+
 const mapDispatchToProps = (dispatch)=>({
     getRecommendData(){
         dispatch(getRecommend())
     }
 })
 
-export default connect(null,mapDispatchToProps)(Home)
+export default connect(mapStateToProps,mapDispatchToProps)(Home)
 
