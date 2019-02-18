@@ -1,9 +1,9 @@
 import React,{Component} from "react";
 
-export default class Man extends Component{
+export default class Classify extends Component{
     render(){
         return (
-            <div>男频</div>
+            <div></div>
         )
     }
 }

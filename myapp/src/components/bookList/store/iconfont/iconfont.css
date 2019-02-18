@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1550305559858'); /* IE9 */
+  src: url('iconfont.eot?t=1550305559858#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPMAAsAAAAAB/gAAAN+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDMIJ9ATYCJAMQCwoABCAFhG0HTBvzBhEVnJ3IfhbYMW16NraTl4+Vjo+HZaR9XwQPlPf2Zia/myaF0iwAnwp5Zd4khY1r2JqOuRQ6Cle2wrLt9B1Ju9PLpwxhBEIiJLABJxBiahkNJP/P5fTuGtMCmd+ySDJee1J0LwowsDSwPbFNR4EXCDaM3UTQEM9DAAYlqY5o37F7f3Q0wDQBiOlTJo1Bz9jQGpoFOgK3irUaIgsXukyWl4FM/nvxhrpCB4lLAeb2nthhPK2fV3sepKKcKIZTBPl0HsDYBAqoDmggJlf6xqKiXHUUhjdYoyGgoyNhqp4Rz4McR1EcRadDP8jBf55wAzR6AFBfzit4Xg2LIOH5CFmVPkhWPECLBoDOE9VFA9sA7OIQKpBI95IlSxcfNmnAeG+8JvQP9cjLi9pgDTh81bh+faBx7dqAGzf6DcjfsGaeUPMWhnjOmxe9MXDgsRtmpcZsfPrVq70HFmxMyUPmLQgdKAoCjTwYWJASMD6v8PwK+dYae9I8a0K+mVps3tL+AwcWeA9ARh2pYKroTaaZugFprjtWTBW0DD92sl+/GtUXRi2sUVV8hqZtPO3t/+2SevTYPaNKywixe5EVNMde/+XWVtWfgqarevXa1He042Gr+AbLH9nbHbvEdhILrWB6k9WcQ+1sgmn56MnBtHmy9IjaqtvepPXF118ZfdunUs3+c+r/2XNu1+5At3VegSfSe8/uejz1dHq/fnFFEsykYu2X/5D2e7snni9/bGckGcwGwDm+cHMbcI6oE6q5c2enplTPXziOSec6Lx7l3fybbj5C8mb6a5uruun5D/LO8h9m0WhA/ql8JbBrmqvANudfENBoPniKBAwM4DeVwI/7U5isd1EQ6FgJSApRAhQ65VGNUh1cmNQHN3RagUE1Om028WcuCqG5A1WJl0DgwzaQeHEMlMvIF61RflA39oeGUVXoeMSeXZPCjoK2ogfOB0KXM0JO7YjmC/pFYktaybkPFBMmYTGd54tHzFCmWGCe/lKVgIRTOEiXYZIw5MIRujoNVPPNbEZVb5q6nJY6tgSyKeQBjg8QcrEM0e6qU/j+BfIVEjZpwPXEH5Awwv7BwtS8A3rUZZ1wt3KN8eRbUooAIlgKHCQPSmCOgbx6VAS51FQwIJPbmCmdqKtuurwhfYFSow0wTGvarje69j0tW4RfVoKk66YJCvsdZvV49IOlEgAA') format('woff2'),
+  url('iconfont.woff?t=1550305559858') format('woff'),
+  url('iconfont.ttf?t=1550305559858') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1550305559858#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-arrow-left4:before {
+  content: "\e678";
+}
+
+.icon-shuaxin:before {
+  content: "\e62b";
+}
+
+.icon-zhuye:before {
+  content: "\e65d";
+}
+
